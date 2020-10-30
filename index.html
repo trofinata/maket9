@@ -112,10 +112,16 @@
 					<dd>секунд</dd>
 				</div>
 			</dl>
-			Введите ваше имя
-			Введите ваш e-mail
-			<p>Даю согласие на обработку моих персональных данных</p>
-			Скачать видео курс
+			<form action="#" method="POST">
+				<label for="form-name" class="visually-hidden">Имя</label>
+					<input type="text" name="name" id="form-name" placeholder="Введите ваше имя">
+				<label for="form-email" class="visually-hidden">E-mail</label>
+					<input type="email" name="email" id="form-email" placeholder="Введите ваш e-mail">
+				<label>
+					<input type="checkbox" name="agreement" cheked>Даю согласие на обработку моих персональных данных
+				</label>
+				<button type="button">Скачать видео курс</button>
+			</form>
 		</section>
 	</main>
 	<footer class="main-footer">
